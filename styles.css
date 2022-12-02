@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui;
+    background-color: #000;
+    color: green;
+    text-align: center;
+}
+
+h1 {
+    font-size: 0.8rem;
+    margin: 2px 20px;
+}
+
+p{
+    margin-top: 0;
+    font-size: 0.7rem;
+}
+
+.clock-container {
+    display: grid;
+    place-content: center;
+    height: 90vh;
+}
+
+#digital-clock{
+    font-size: 4rem;
+}
+
+#digital-calender{
+    font-size: 1.50rem;
+}
